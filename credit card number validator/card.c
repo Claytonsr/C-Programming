@@ -9,7 +9,7 @@ int main(){
     long int input=1;
     while (input !=0)
     {
-        printf("\n\nEnter the card number or enter 0 to exit.\n");
+        printf("\n\nEnter the credit card number without points or space or enter 0 to exit.\n");
         scanf("%ld", &input);
         if(input != 0)
         executar(input);
@@ -127,7 +127,7 @@ int verifica_operado(long int numero_cartao, int tamanho, int* ptr_operadora){
         //para descobrir o prefixo da operadora, utilizo da seguinte formula matematica: numero_do_cartao/10(elevado ao tamanho do numero)-2, para obter os dois primeiros digitos (prefixo)
         potencia= tamanho -2;
         operadora = numero_cartao / pow(10, potencia);
-        if(operadora > 50 && operadora < 56 || operadora > 35 && operadora < 39 || operadora == 34 || operadora == 30){
+        if(operadora > 49 && operadora < 56 || operadora > 35 && operadora < 39 || operadora == 34 || operadora == 30){
             //Retorno o prefixo
             *ptr_operadora = operadora;
             return 1;
