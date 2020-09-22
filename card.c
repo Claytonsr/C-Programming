@@ -108,7 +108,7 @@ void executar(long int input){
                     if(valid_num ==1)
                         printf("%ld, Aura, valid\n", input);
                     else
-                        printf("%ld, Aura, invalid\n", );
+                        printf("%ld, Aura, invalid\n", input);
                 }
                 else
                 printf("%ld Unknown operator", input);
