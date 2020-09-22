@@ -104,6 +104,12 @@ void executar(long int input){
                     else
                         printf("%ld, JCB, invalid", input);
                 }
+                else if (operadora == 50) {
+                    if(valid_num ==1)
+                        printf("%ld, Aura, valid\n", input);
+                    else
+                        printf("%ld, Aura, invalid\n", );
+                }
                 else
                 printf("%ld Unknown operator", input);
             }
