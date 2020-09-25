@@ -1,3 +1,4 @@
+# Credit card validator
 A simple script, to validate a credit card number. You can test it using 4devs to generate credit card numbers.
 
 You can test it and compile it here: https://onlinegdb.com/H1pDSZ_BD                                  
